@@ -15,9 +15,15 @@ console.log(pessoa1[1]);
 
 // ==> Exemplo 03 - Outra forma de usar Tuplas em TypeScript (com labels)
 
-let listaFrutas: [string, ...string[]] = ['Abacaxi', 'Laranja', 'Maçã', 'Melancia', 'Morango'];
+let pessoa2: [nome: string, posicao: string, idade: number] = ['Alexandre Barbosa', 'Back-end Web Developer', 21];
+
+console.log(pessoa2);
 
 // ==> Exemplo 04 - Usando Tuplas com Spread Operator
+
+let listaFrutas: [string, ...string[]] = ['Abacaxi', 'Laranja', 'Maçã', 'Melancia', 'Morango'];
+
+console.log(...listaFrutas);
 
 // ==> Exemplo 05 - Lista Heterogênea de Tupla
 
